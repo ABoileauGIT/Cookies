@@ -22,7 +22,7 @@ erreur chaque fois que j'en corrige une en spécifiant le type, function, ect. -
         $nbVisites = $_COOKIE['compteurVisites'] + 1;
     }
      setcookie('compteurVisites', $nbVisites, $expiration);
-    echo '<h1>La page a été visité ' . $nbVisites . ' fois.</h1>';
+    echo '<h1>La page a été visité ' . $nbVisites . ' fois.</h1>'; // <?= au lieu de echo
     ?>
 </body>
 
